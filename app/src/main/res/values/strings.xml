@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DiceRollerConstraintLayout</string>
+    <string name="roll">Lanzar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="limpiar_tiradas_button_text">Limpiar TIRADAS</string>
+    <string name="confirmacion_borrado_aceptar">Aceptar</string>
+    <string name="tiradas_borrado_exito_mensaje">Registro de Tiradas borrado con éxito</string>
+    <string name="confirmacion_borrado_mensaje">¿Deseas borrar todos los módulos? La operación es irreversible</string>
+    <string name="confirmacion_borrado_title">Confirmación</string>
+    <string name="confirmacion_borrado_cancelar">Cancelar</string>
+    <string name="tirada_registrada">Tirada registrada correctamente</string>
+</resources>
