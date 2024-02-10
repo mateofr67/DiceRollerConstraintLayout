@@ -1,5 +1,6 @@
 package com.mpd.pmdm.dicerollerconstraintlayout.ui.viewmodel
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -9,7 +10,7 @@ import kotlinx.coroutines.launch
 
 class TiradaViewModel(val appRepository: AppRepository)  : ViewModel() {
 
-    val obtenerTiradas = appRepository.obtenerTiradas
+    val obtenerTiradas  : LiveData<List<Tirada>> = appRepository.obtenerTiradas
 
     fun insertarTirada (fecha: String,dado1 : Int, dado2:Int){
         val newTirada = Tirada(fecha = fecha , dado1 = dado1, dado2 = dado2)
