@@ -5,7 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.mpd.pmdm.dicerollerconstraintlayout.data.database.tirada.Tirada
+
 
 @Dao
 interface TiradaDao {

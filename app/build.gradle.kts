@@ -46,6 +46,8 @@ android {
 }
 
 dependencies {
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
     val room_version = "2.6.1"
     val lifecycle_version = "2.7.0"
