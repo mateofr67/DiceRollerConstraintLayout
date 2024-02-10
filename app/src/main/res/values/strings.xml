@@ -14,4 +14,5 @@
     <string name="fecha">Fecha</string>
     <string name="dado_1">Dado 1</string>
     <string name="dado_2">Dado 2</string>
+    <string name="limpiar_tiradas_text">Limpiar TIRADAS</string>
 </resources>

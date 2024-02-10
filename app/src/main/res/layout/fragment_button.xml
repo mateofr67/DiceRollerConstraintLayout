@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -29,7 +29,7 @@
             android:id="@+id/btnLimpiar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Limpiar TIRADAS"
+            android:text="@string/limpiar_tiradas_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btnLanzar"

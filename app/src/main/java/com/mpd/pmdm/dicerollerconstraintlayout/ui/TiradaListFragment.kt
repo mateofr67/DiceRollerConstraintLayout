@@ -30,7 +30,7 @@ class TiradaListFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentTiradaListBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -42,7 +42,7 @@ class TiradaListFragment : Fragment() {
         binding.list.adapter = adapter
 
         viewModel.obtenerTiradas.observe(viewLifecycleOwner){
-            adapter.updateList(it)
+            adapter.submitList(it)
         }
     }
 
